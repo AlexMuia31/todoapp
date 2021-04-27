@@ -1,2 +1,2 @@
-web: gunicorn djangoherokuapp.wsgi --log-file -
+web: gunicorn todo.wsgi --log-file -
 release: python manage.py migrate
